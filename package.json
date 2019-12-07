@@ -1,0 +1,19 @@
+{
+  "name": "settled",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faygun/settled-technical-assessment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faygun/settled-technical-assessment/issues"
+  },
+  "homepage": "https://github.com/faygun/settled-technical-assessment#readme"
+}
