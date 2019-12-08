@@ -3,8 +3,9 @@ const router = express.Router();
 const listViewModel = require('../../models/listView');
 const listViewService = require('../../services/listViewService');
 const listingService = require('../../services/listingService');
+const auth = require('../../middleware/auth');
 
-router.post('/', async(req, res)=>{
+router.post('/',auth, async(req, res)=>{
     var {listing_id} = req.body;
     try{
         let _listViewService = new listViewService();
