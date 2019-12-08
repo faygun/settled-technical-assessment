@@ -1,0 +1,5 @@
+{
+    "jwtSecret":"jwt_settled_secret",
+    "username":"test@test.com",
+    "password":"test123"
+}
