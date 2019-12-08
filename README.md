@@ -11,5 +11,5 @@ In the project directory, you can run:
 Runs the app.<br>
 Open [http://localhost:5000/api/listView](http://localhost:5000/api/listView) to check it as post request in the postman or something like that.
 
-### 'npm run token'
+### `npm run token`
 You need a token to call this api. That is why, you can see token in the terminal. Also, header value for token is "x-auth-token"
