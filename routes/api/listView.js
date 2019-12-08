@@ -5,6 +5,10 @@ const listViewService = require('../../services/listViewService');
 const listingService = require('../../services/listingService');
 const auth = require('../../middleware/auth');
 
+router.get('/', (req, res)=>{
+    res.status(200).json({status:"OK"});
+});
+
 router.post('/',auth, async(req, res)=>{
     var {listing_id} = req.body;
     try{
