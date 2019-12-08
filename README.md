@@ -1,4 +1,4 @@
-# Settled tech assestment
+# Settled tech assessment
 
 This project included Node.js, Express.js and mock site.
 
