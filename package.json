@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
+    "token":"node tokener.js",
     "server": "nodemon server.js"
   },
   "repository": {
