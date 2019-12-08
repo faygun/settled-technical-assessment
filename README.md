@@ -14,3 +14,9 @@ Open [http://localhost:5000/api/listView](http://localhost:5000/api/listView) to
 ### `npm run token`
 You need a token to call this api. That is why, you can see token in the terminal. Also, header value for token is: <br>
 "x-auth-token"
+
+### `NOTE`
+You can import settled.postman_collection.json file to see request's template for local and remote.
+
+remote address = https://settled-api.herokuapp.com/api/listView
+local address =  http://localhost:5000/api/listView
