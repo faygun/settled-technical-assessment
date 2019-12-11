@@ -18,5 +18,6 @@ You need a token to call this api. That is why, you can see token in the termina
 ### `NOTE`
 You can import settled.postman_collection.json file to see request's template for local and remote.
 
+remote address for getting token = https://settled-api.herokuapp.com/api/getToken<br>
 remote address = https://settled-api.herokuapp.com/api/listView<br>
 local address =  http://localhost:5000/api/listView
